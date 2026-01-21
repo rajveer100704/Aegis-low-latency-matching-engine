@@ -99,6 +99,8 @@ or synchronization-bound.
 ## 🔥 Profiling Evidence
 
 The following profiling artifacts are included as **evidence**, not illustration.
+<img width="1843" height="688" alt="CPU Hot Path" src="https://github.com/user-attachments/assets/d94fd816-5e17-472e-b2bc-4d4f28156817" />
+
 
 ### CPU Hot Path
 
