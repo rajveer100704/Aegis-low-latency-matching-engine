@@ -23,18 +23,15 @@ the same constraints faced by real-world electronic trading systems.
 
 ## 🏗️ Architecture Overview
 
-Orders are ingested through a deterministic event loop and processed by a  
-**single-writer order book**, ensuring predictable execution and strict FIFO  
+Orders are ingested through a deterministic event loop and processed by a **single-writer order book**, ensuring predictable execution and strict FIFO  
 price-time priority.
 
-The engine is intentionally **core-local** to avoid cross-core cache invalidation  
-and synchronization overhead.
+The engine is intentionally **core-local** to avoid cross-core cache invalidation and synchronization overhead.
 
-Benchmarking and profiling are isolated from the matching path to preserve  
-measurement fidelity.
+Benchmarking and profiling are isolated from the matching path to preserve measurement fidelity.
 
 Detailed design notes:  
-docs/architecture.md
+[docs/architecture.md](docs/architecture.md)
 
 ---
 
@@ -73,7 +70,7 @@ load using **cycle-accurate instrumentation**.
     Tooling                  perf, flame graphs, rdtsc
 
 Full benchmark data:  
-results/benchmark_results.md
+[results/benchmark_results.md](results/benchmark_results.md)
 
 These numbers reflect **steady-state behavior**, not best-case microbenchmarks.
 
