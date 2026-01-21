@@ -6,8 +6,6 @@ A production-style, **ultra–low latency trading matching engine** designed wit
 This project focuses on **determinism, correctness, and latency predictability** —  
 the same constraints faced by real-world electronic trading systems.
 
-> ⚠️ Research / learning project.  
-> Not intended for live trading or financial use.
 
 ---
 
