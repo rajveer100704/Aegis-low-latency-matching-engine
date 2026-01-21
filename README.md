@@ -53,7 +53,7 @@ docs/architecture.md
     │   ├── sharding/      # Instrument partitioning (future)
     │   └── main.cpp
     ├── CMakeLists.txt
-    └── README.md
+    
 
 This structure cleanly separates **measurement from behavior**, allowing the  
 matching engine to remain minimal, deterministic, and cache-friendly.
