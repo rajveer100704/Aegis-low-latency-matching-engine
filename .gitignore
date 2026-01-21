@@ -1,0 +1,6 @@
+build/
+*.o
+*.out
+perf.data
+out.perf
+out.folded
