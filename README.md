@@ -99,19 +99,27 @@ or synchronization-bound.
 ## 🔥 Profiling Evidence
 
 The following profiling artifacts are included as **evidence**, not illustration.
-<img width="1843" height="688" alt="CPU Hot Path" src="https://github.com/user-attachments/assets/d94fd816-5e17-472e-b2bc-4d4f28156817" />
 
 
 ### CPU Hot Path
 
 Flame graphs show the matching engine consuming the majority of execution time,  
 with minimal framework or syscall overhead.
+<img width="1843" height="688" alt="CPU Hot Path" src="https://github.com/user-attachments/assets/11b4c1a2-bf12-495e-8695-c78e7741f55a" />
 
 ### Instruction Cycles per Order
 
 Cycle counts measured using `rdtsc` confirm ~55 cycles per order in steady state.
+<img width="1881" height="392" alt="Instruction Cycles" src="https://github.com/user-attachments/assets/284d905d-2435-430e-8098-9b12f7784876" />
 
 ### Branch & Cache Behavior
+<img width="1859" height="825" alt="Branch + Cache" src="https://github.com/user-attachments/assets/21703bcf-358b-4064-87eb-f66fe87cb1ab" />
+
+### Latency & Throughput
+<img width="1906" height="963" alt="Screenshot 2026-01-07 083137" src="https://github.com/user-attachments/assets/f14e10e2-c040-4939-8157-a276342357ea" />
+<img width="1717" height="917" alt="Screenshot 2026-01-07 100755" src="https://github.com/user-attachments/assets/48bee429-6208-47bd-8ecf-fe618381bc50" />
+<img width="1268" height="300" alt="Screenshot 2026-01-07 101711" src="https://github.com/user-attachments/assets/7c35c208-a88a-46d5-9bd7-5edafb827b5c" />
+
 
 Cache-friendly access patterns with minimal branch misprediction under load.
 
@@ -160,8 +168,3 @@ measurable behavior**, reflecting real-world exchange design constraints.
 
 ---
 
-## ⚠️ Disclaimer
-
-This software is provided **strictly for educational and research purposes**.
-
-It must **not** be used for financial trading or production environments.
