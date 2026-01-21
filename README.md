@@ -173,3 +173,7 @@ measurable behavior**, reflecting real-world exchange design constraints.
 
 ---
 
+## 👤 Author
+
+**Rajveer Singh Saggu**  
+Email: rajveer19255@gmail.com
