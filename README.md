@@ -51,6 +51,5 @@ matching path to preserve signal fidelity.
 │   ├── sharding/      # Instrument partitioning (future)
 │   └── main.cpp
 ├── CMakeLists.txt
-└── README.md
 
 
