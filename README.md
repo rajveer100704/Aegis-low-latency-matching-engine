@@ -117,7 +117,9 @@ Cycle counts measured using `rdtsc` confirm ~55 cycles per order in steady state
 
 ### Latency & Throughput
 <img width="1906" height="963" alt="Screenshot 2026-01-07 083137" src="https://github.com/user-attachments/assets/f14e10e2-c040-4939-8157-a276342357ea" />
+
 <img width="1717" height="917" alt="Screenshot 2026-01-07 100755" src="https://github.com/user-attachments/assets/48bee429-6208-47bd-8ecf-fe618381bc50" />
+
 <img width="1268" height="300" alt="Screenshot 2026-01-07 101711" src="https://github.com/user-attachments/assets/7c35c208-a88a-46d5-9bd7-5edafb827b5c" />
 
 
